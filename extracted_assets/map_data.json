@@ -31,7 +31,7 @@
           "room_id": 2,
           "name": "Hyrule Castle - Room 0x02",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -44,22 +44,9 @@
                 "tile_y": 39,
                 "target_room_id": 34,
                 "target_floor": "3F"
-              },
-              {
-                "tile_x": 30,
-                "tile_y": 51,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -73,7 +60,7 @@
           "room_id": 17,
           "name": "Hyrule Sewers Goodies Room (Drop In)",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -119,7 +106,7 @@
           "room_id": 18,
           "name": "Sanctuary",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -179,7 +166,7 @@
           "room_id": 33,
           "name": "Hyrule Castle - Room 0x21",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -202,7 +189,7 @@
           "room_id": 34,
           "name": "Hyrule Castle - Room 0x22",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -217,14 +204,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 1,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -245,7 +225,7 @@
           "room_id": 50,
           "name": "Hyrule Castle - Room 0x32",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -279,7 +259,7 @@
           "room_id": 65,
           "name": "Hyrule Castle - Room 0x41",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -294,14 +274,7 @@
                 "target_floor": "4F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -322,7 +295,7 @@
           "room_id": 66,
           "name": "Hyrule Castle - Room 0x42",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -378,7 +351,7 @@
           "room_id": 2,
           "name": "Hyrule Castle Sewers - Room 0x02",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -391,22 +364,9 @@
                 "tile_y": 39,
                 "target_room_id": 34,
                 "target_floor": "3F"
-              },
-              {
-                "tile_x": 30,
-                "tile_y": 51,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -420,7 +380,7 @@
           "room_id": 34,
           "name": "Hyrule Castle Sewers - Room 0x22",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -435,14 +395,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 1,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -463,7 +416,7 @@
           "room_id": 41,
           "name": "Hyrule Castle Sewers - Room 0x29",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -486,7 +439,7 @@
           "room_id": 50,
           "name": "Hyrule Castle Sewers - Room 0x32",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -520,7 +473,7 @@
           "room_id": 57,
           "name": "Hyrule Castle East",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -576,7 +529,7 @@
           "room_id": 65,
           "name": "Hyrule Castle Sewers - Room 0x41",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -591,14 +544,7 @@
                 "target_floor": "4F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -619,7 +565,7 @@
           "room_id": 66,
           "name": "Hyrule Castle Sewers - Room 0x42",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -668,7 +614,7 @@
           "room_id": 80,
           "name": "Hyrule Castle Sewers - Room 0x50",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -681,22 +627,9 @@
                 "tile_y": 47,
                 "target_room_id": 4,
                 "target_floor": "2F"
-              },
-              {
-                "tile_x": 46,
-                "tile_y": 23,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 3,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -722,7 +655,7 @@
           "room_id": 81,
           "name": "Hyrule Castle Sewers - Room 0x51",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -730,14 +663,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 3,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -758,7 +684,7 @@
           "room_id": 82,
           "name": "Hyrule Castle Sewers - Room 0x52",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -773,22 +699,10 @@
                 "target_floor": "2F"
               },
               {
-                "tile_x": 30,
-                "tile_y": 38,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
                 "tile_x": 39,
                 "tile_y": 38,
                 "target_room_id": 50,
                 "target_floor": "3F"
-              },
-              {
-                "tile_x": 21,
-                "tile_y": 38,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -819,7 +733,7 @@
           "room_id": 96,
           "name": "Hyrule Castle Sewers - Room 0x60",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -832,28 +746,9 @@
                 "tile_y": 46,
                 "target_room_id": 4,
                 "target_floor": "2F"
-              },
-              {
-                "tile_x": 32,
-                "tile_y": 42,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 30,
-                "tile_y": 23,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 3,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -894,7 +789,7 @@
           "room_id": 97,
           "name": "Hyrule Castle Central",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -909,14 +804,7 @@
                 "target_floor": "4F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -960,29 +848,15 @@
           "room_id": 98,
           "name": "Hyrule Castle Sewers - Room 0x62",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
             "height": 512
           },
           "connections": {
-            "staircases": [
-              {
-                "tile_x": 38,
-                "tile_y": 38,
-                "target_room_id": 3,
-                "target_floor": "1F"
-              }
-            ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 3,
-                "target_floor": "1F"
-              }
-            ]
+            "staircases": [],
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -1015,7 +889,7 @@
           "room_id": 111,
           "name": "Hyrule Castle Sewers - Room 0x6F",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1023,14 +897,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": []
         },
@@ -1038,7 +905,7 @@
           "room_id": 112,
           "name": "Hyrule Castle Sewers - Room 0x70",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1065,14 +932,7 @@
                 "target_floor": "4F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -1088,7 +948,7 @@
           "room_id": 113,
           "name": "Hyrule Castle Sewers - Room 0x71",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1113,22 +973,9 @@
                 "tile_y": 15,
                 "target_room_id": 192,
                 "target_floor": "4F"
-              },
-              {
-                "tile_x": 14,
-                "tile_y": 4,
-                "target_room_id": 1,
-                "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -1144,7 +991,7 @@
           "room_id": 114,
           "name": "Hyrule Castle Sewers - Room 0x72",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1159,14 +1006,7 @@
                 "target_floor": "3F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -1182,7 +1022,7 @@
           "room_id": 128,
           "name": "Hyrule Castle Prison",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1190,14 +1030,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 1,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": []
         },
@@ -1205,7 +1038,7 @@
           "room_id": 129,
           "name": "Hyrule Castle Sewers - Room 0x81",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1220,14 +1053,7 @@
                 "target_floor": "3F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": 36,
-                "tile_y": 44,
-                "target_room_id": 1,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": []
         },
@@ -1235,7 +1061,7 @@
           "room_id": 130,
           "name": "Hyrule Castle Sewers - Room 0x82",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1265,7 +1091,7 @@
           "room_id": 153,
           "name": "Hyrule Castle Sewers - Room 0x99",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1329,27 +1155,14 @@
           "room_id": 168,
           "name": "Hyrule Castle Sewers - Room 0xA8",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
             "height": 512
           },
           "connections": {
-            "staircases": [
-              {
-                "tile_x": 46,
-                "tile_y": 29,
-                "target_room_id": 8,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 46,
-                "tile_y": 11,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ],
+            "staircases": [],
             "pit_falls": [
               {
                 "tile_x": null,
@@ -1398,7 +1211,7 @@
           "room_id": 169,
           "name": "Hyrule Castle Sewers - Room 0xA9",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1425,14 +1238,7 @@
                 "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 137,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -1483,7 +1289,7 @@
           "room_id": 170,
           "name": "Hyrule Castle Sewers - Room 0xAA",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1495,12 +1301,6 @@
                 "tile_x": 46,
                 "tile_y": 44,
                 "target_room_id": 27,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 18,
-                "tile_y": 11,
-                "target_room_id": 0,
                 "target_floor": "1F"
               }
             ],
@@ -1562,7 +1362,7 @@
           "room_id": 184,
           "name": "Hyrule Castle Sewers - Room 0xB8",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1618,7 +1418,7 @@
           "room_id": 185,
           "name": "Hyrule Castle Sewers - Room 0xB9",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1684,7 +1484,7 @@
           "room_id": 186,
           "name": "Hyrule Castle Sewers - Room 0xBA",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1735,7 +1535,7 @@
           "room_id": 200,
           "name": "Hyrule Castle Sewers - Room 0xC8",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1764,7 +1564,7 @@
           "room_id": 201,
           "name": "Eastern Palace",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1808,7 +1608,7 @@
           "room_id": 216,
           "name": "Hyrule Castle Sewers - Room 0xD8",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1837,7 +1637,7 @@
           "room_id": 217,
           "name": "Hyrule Castle Sewers - Room 0xD9",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1891,7 +1691,7 @@
           "room_id": 218,
           "name": "Hyrule Castle Sewers - Room 0xDA",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 5,
           "dimensions": {
             "width": 512,
@@ -1944,7 +1744,7 @@
           "room_id": 153,
           "name": "Eastern Palace - Room 0x99",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2008,27 +1808,14 @@
           "room_id": 168,
           "name": "Eastern Palace - Room 0xA8",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
             "height": 512
           },
           "connections": {
-            "staircases": [
-              {
-                "tile_x": 46,
-                "tile_y": 29,
-                "target_room_id": 8,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 46,
-                "tile_y": 11,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ],
+            "staircases": [],
             "pit_falls": [
               {
                 "tile_x": null,
@@ -2077,7 +1864,7 @@
           "room_id": 169,
           "name": "Eastern Palace - Room 0xA9",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2104,14 +1891,7 @@
                 "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 137,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -2162,7 +1942,7 @@
           "room_id": 170,
           "name": "Eastern Palace - Room 0xAA",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2174,12 +1954,6 @@
                 "tile_x": 46,
                 "tile_y": 44,
                 "target_room_id": 27,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 18,
-                "tile_y": 11,
-                "target_room_id": 0,
                 "target_floor": "1F"
               }
             ],
@@ -2241,7 +2015,7 @@
           "room_id": 184,
           "name": "Eastern Palace - Room 0xB8",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2297,7 +2071,7 @@
           "room_id": 185,
           "name": "Eastern Palace - Room 0xB9",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2363,7 +2137,7 @@
           "room_id": 186,
           "name": "Eastern Palace - Room 0xBA",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2414,7 +2188,7 @@
           "room_id": 200,
           "name": "Eastern Palace - Room 0xC8",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2443,7 +2217,7 @@
           "room_id": 201,
           "name": "Eastern Palace",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2487,7 +2261,7 @@
           "room_id": 216,
           "name": "Eastern Palace - Room 0xD8",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2516,7 +2290,7 @@
           "room_id": 217,
           "name": "Eastern Palace - Room 0xD9",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2570,7 +2344,7 @@
           "room_id": 218,
           "name": "Eastern Palace - Room 0xDA",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -2623,7 +2397,7 @@
           "room_id": 51,
           "name": "Desert Palace - Room 0x33",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -2646,7 +2420,7 @@
           "room_id": 67,
           "name": "Desert Palace - Room 0x43",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -2654,14 +2428,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 8,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -2697,7 +2464,7 @@
           "room_id": 83,
           "name": "Desert Palace - Room 0x53",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -2740,7 +2507,7 @@
           "room_id": 99,
           "name": "Desert Palace - Room 0x63",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -2753,12 +2520,6 @@
                 "tile_y": 4,
                 "target_room_id": 116,
                 "target_floor": "3F"
-              },
-              {
-                "tile_x": 46,
-                "tile_y": 49,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -2776,7 +2537,7 @@
           "room_id": 115,
           "name": "Desert Palace - Room 0x73",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -2822,7 +2583,7 @@
           "room_id": 116,
           "name": "Desert Palace - Room 0x74",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -2837,14 +2598,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 5,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -2875,7 +2629,7 @@
           "room_id": 117,
           "name": "Desert Palace - Room 0x75",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -2883,14 +2637,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": 17,
-                "tile_y": 33,
-                "target_room_id": 8,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -2938,7 +2685,7 @@
           "room_id": 131,
           "name": "Desert Palace - Room 0x83",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -2950,12 +2697,6 @@
                 "tile_x": 11,
                 "tile_y": 45,
                 "target_room_id": 25,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 36,
-                "tile_y": 50,
-                "target_room_id": 0,
                 "target_floor": "1F"
               }
             ],
@@ -3002,7 +2743,7 @@
           "room_id": 132,
           "name": "Desert Palace Central",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3046,7 +2787,7 @@
           "room_id": 133,
           "name": "Desert Palace - Room 0x85",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3054,14 +2795,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": 31,
-                "tile_y": 14,
-                "target_room_id": 5,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3087,7 +2821,7 @@
           "room_id": 32,
           "name": "Agahnims Tower - Room 0x20",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 7,
           "dimensions": {
             "width": 512,
@@ -3095,14 +2829,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 1,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3116,7 +2843,7 @@
           "room_id": 48,
           "name": "Hyrule Tower Agahnim's Sanctum",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 7,
           "dimensions": {
             "width": 512,
@@ -3124,14 +2851,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 5,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3162,7 +2882,7 @@
           "room_id": 64,
           "name": "Archery Game",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 7,
           "dimensions": {
             "width": 512,
@@ -3170,14 +2890,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": 25,
-                "tile_y": 9,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3211,7 +2924,7 @@
           "room_id": 176,
           "name": "Agahnims Tower - Room 0xB0",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 7,
           "dimensions": {
             "width": 512,
@@ -3257,7 +2970,7 @@
           "room_id": 192,
           "name": "Agahnims Tower - Room 0xC0",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 7,
           "dimensions": {
             "width": 512,
@@ -3313,7 +3026,7 @@
           "room_id": 208,
           "name": "Agahnims Tower - Room 0xD0",
           "floor_level": "5F",
-          "layout_row": 4,
+          "floor_index": 4,
           "num_floors": 7,
           "dimensions": {
             "width": 512,
@@ -3366,7 +3079,7 @@
           "room_id": 224,
           "name": "Hyrule Castle Tower",
           "floor_level": "6F",
-          "layout_row": 5,
+          "floor_index": 5,
           "num_floors": 7,
           "dimensions": {
             "width": 512,
@@ -3424,7 +3137,7 @@
           "room_id": 6,
           "name": "Swamp Palace - Room 0x06",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3432,14 +3145,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 8,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3453,7 +3159,7 @@
           "room_id": 22,
           "name": "Swamp Palace - Room 0x16",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3474,14 +3180,7 @@
                 "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3509,7 +3208,7 @@
           "room_id": 38,
           "name": "Swamp Palace - Room 0x26",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3534,22 +3233,9 @@
                 "tile_y": 4,
                 "target_room_id": 68,
                 "target_floor": "3F"
-              },
-              {
-                "tile_x": 41,
-                "tile_y": 44,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3563,7 +3249,7 @@
           "room_id": 40,
           "name": "Swamp Palace",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3584,14 +3270,7 @@
                 "target_floor": "4F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3624,7 +3303,7 @@
           "room_id": 52,
           "name": "Swamp Palace - Room 0x34",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3675,7 +3354,7 @@
           "room_id": 53,
           "name": "Swamp Palace - Room 0x35",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3736,7 +3415,7 @@
           "room_id": 54,
           "name": "Swamp Palace - Room 0x36",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3751,14 +3430,7 @@
                 "target_floor": "3F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 8,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3786,7 +3458,7 @@
           "room_id": 55,
           "name": "Swamp Palace - Room 0x37",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3813,14 +3485,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3841,7 +3506,7 @@
           "room_id": 56,
           "name": "Swamp Palace - Room 0x38",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3898,7 +3563,7 @@
           "room_id": 70,
           "name": "Swamp Palace - Room 0x46",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3929,7 +3594,7 @@
           "room_id": 84,
           "name": "Swamp Palace - Room 0x54",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3937,14 +3602,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 16,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": []
         },
@@ -3952,7 +3610,7 @@
           "room_id": 102,
           "name": "Swamp Palace - Room 0x66",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -3967,14 +3625,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -3997,7 +3648,7 @@
           "room_id": 118,
           "name": "Swamp Palace - Room 0x76",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -4012,14 +3663,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": 44,
-                "tile_y": 16,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -4064,7 +3708,7 @@
           "room_id": 9,
           "name": "Palace Of Darkness - Room 0x09",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4113,7 +3757,7 @@
           "room_id": 10,
           "name": "Palace Of Darkness - Room 0x0A",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4151,7 +3795,7 @@
           "room_id": 11,
           "name": "Palace Of Darkness - Room 0x0B",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4192,7 +3836,7 @@
           "room_id": 25,
           "name": "Palace Of Darkness - Room 0x19",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4228,7 +3872,7 @@
           "room_id": 26,
           "name": "Palace Of Darkness - Room 0x1A",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4236,14 +3880,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": 13,
-                "tile_y": 26,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -4277,7 +3914,7 @@
           "room_id": 27,
           "name": "Palace Of Darkness - Room 0x1B",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4292,14 +3929,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -4323,7 +3953,7 @@
           "room_id": 42,
           "name": "Palace Of Darkness - Room 0x2A",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4377,7 +4007,7 @@
           "room_id": 43,
           "name": "Palace Of Darkness - Room 0x2B",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4423,7 +4053,7 @@
           "room_id": 58,
           "name": "Palace Of Darkness - Room 0x3A",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4476,7 +4106,7 @@
           "room_id": 59,
           "name": "Palace Of Darkness - Room 0x3B",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4515,7 +4145,7 @@
           "room_id": 74,
           "name": "Palace of Darkness",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4536,14 +4166,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": 5,
-                "tile_y": 37,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -4567,7 +4190,7 @@
           "room_id": 75,
           "name": "Palace Of Darkness - Room 0x4B",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4613,7 +4236,7 @@
           "room_id": 90,
           "name": "Palace Of Darkness - Room 0x5A",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4642,7 +4265,7 @@
           "room_id": 106,
           "name": "Palace Of Darkness - Room 0x6A",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -4692,7 +4315,7 @@
           "room_id": 144,
           "name": "Misery Mire - Room 0x90",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -4715,7 +4338,7 @@
           "room_id": 145,
           "name": "Misery Mire - Room 0x91",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -4773,7 +4396,7 @@
           "room_id": 146,
           "name": "Misery Mire - Room 0x92",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -4822,7 +4445,7 @@
           "room_id": 147,
           "name": "Misery Mire - Room 0x93",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -4835,18 +4458,6 @@
                 "tile_y": 4,
                 "target_room_id": 162,
                 "target_floor": "2F"
-              },
-              {
-                "tile_x": 14,
-                "tile_y": 43,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 14,
-                "tile_y": 26,
-                "target_room_id": 37,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -4880,7 +4491,7 @@
           "room_id": 151,
           "name": "Misery Mire - Room 0x97",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -4926,7 +4537,7 @@
           "room_id": 152,
           "name": "Misery Mire",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -4941,14 +4552,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -4972,7 +4576,7 @@
           "room_id": 160,
           "name": "Misery Mire - Room 0xA0",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5037,7 +4641,7 @@
           "room_id": 161,
           "name": "Misery Mire - Room 0xA1",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5071,7 +4675,7 @@
           "room_id": 162,
           "name": "Misery Mire - Room 0xA2",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5086,14 +4690,7 @@
                 "target_floor": "3F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": 10,
-                "tile_y": 11,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -5119,7 +4716,7 @@
           "room_id": 163,
           "name": "Misery Mire - Room 0xA3",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5150,7 +4747,7 @@
           "room_id": 177,
           "name": "Misery Mire - Room 0xB1",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5191,7 +4788,7 @@
           "room_id": 178,
           "name": "Misery Mire - Room 0xB2",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5235,7 +4832,7 @@
           "room_id": 179,
           "name": "Misery Mire - Room 0xB3",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5298,7 +4895,7 @@
           "room_id": 193,
           "name": "Misery Mire - Room 0xC1",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5357,7 +4954,7 @@
           "room_id": 194,
           "name": "Misery Mire - Room 0xC2",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5408,7 +5005,7 @@
           "room_id": 195,
           "name": "Misery Mire - Room 0xC3",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5472,7 +5069,7 @@
           "room_id": 209,
           "name": "Misery Mire - Room 0xD1",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5516,7 +5113,7 @@
           "room_id": 210,
           "name": "Misery Mire - Room 0xD2",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -5531,14 +5128,7 @@
                 "target_floor": "3F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 211,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -5569,7 +5159,7 @@
           "room_id": 41,
           "name": "Skull Woods - Room 0x29",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -5592,7 +5182,7 @@
           "room_id": 57,
           "name": "Hyrule Castle East",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -5648,7 +5238,7 @@
           "room_id": 73,
           "name": "Skull Woods - Room 0x49",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -5702,7 +5292,7 @@
           "room_id": 86,
           "name": "Skull Woods 1",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -5748,7 +5338,7 @@
           "room_id": 87,
           "name": "Skull Woods - Room 0x57",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -5771,7 +5361,7 @@
           "room_id": 88,
           "name": "Skull Woods 3 (Drop In)",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -5839,7 +5429,7 @@
           "room_id": 89,
           "name": "Skull Woods - Room 0x59",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -5852,12 +5442,6 @@
                 "tile_y": 14,
                 "target_room_id": 21,
                 "target_floor": "2F"
-              },
-              {
-                "tile_x": 14,
-                "tile_y": 14,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -5896,7 +5480,7 @@
           "room_id": 103,
           "name": "Desert Palace East",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -5942,7 +5526,7 @@
           "room_id": 104,
           "name": "Skull Woods 5 (Drop In)",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 2,
           "dimensions": {
             "width": 512,
@@ -5955,12 +5539,6 @@
                 "tile_y": 25,
                 "target_room_id": 35,
                 "target_floor": "2F"
-              },
-              {
-                "tile_x": 13,
-                "tile_y": 15,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -6001,7 +5579,7 @@
           "room_id": 14,
           "name": "Ice Palace",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6030,7 +5608,7 @@
           "room_id": 30,
           "name": "Ice Palace - Room 0x1E",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6074,7 +5652,7 @@
           "room_id": 31,
           "name": "Ice Palace - Room 0x1F",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6089,14 +5667,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 1,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -6115,7 +5686,7 @@
           "room_id": 46,
           "name": "Hyrule Castle Throne Room",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6144,7 +5715,7 @@
           "room_id": 62,
           "name": "Ice Palace - Room 0x3E",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6167,7 +5738,7 @@
           "room_id": 63,
           "name": "Ice Palace - Room 0x3F",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6211,7 +5782,7 @@
           "room_id": 78,
           "name": "Ice Palace - Room 0x4E",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6224,18 +5795,6 @@
                 "tile_y": 48,
                 "target_room_id": 28,
                 "target_floor": "8F"
-              },
-              {
-                "tile_x": 56,
-                "tile_y": 36,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 43,
-                "tile_y": 47,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -6278,7 +5837,7 @@
           "room_id": 94,
           "name": "Ice Palace - Room 0x5E",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6291,12 +5850,6 @@
                 "tile_y": 26,
                 "target_room_id": 28,
                 "target_floor": "8F"
-              },
-              {
-                "tile_x": 6,
-                "tile_y": 3,
-                "target_room_id": 0,
-                "target_floor": "1F"
               },
               {
                 "tile_x": 19,
@@ -6320,7 +5873,7 @@
           "room_id": 95,
           "name": "Ice Palace - Room 0x5F",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6335,26 +5888,13 @@
                 "target_floor": "2F"
               },
               {
-                "tile_x": 11,
-                "tile_y": 54,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
                 "tile_x": 42,
                 "tile_y": 22,
                 "target_room_id": 23,
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 3,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -6375,7 +5915,7 @@
           "room_id": 110,
           "name": "Ice Palace - Room 0x6E",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6388,34 +5928,9 @@
                 "tile_y": 11,
                 "target_room_id": 4,
                 "target_floor": "2F"
-              },
-              {
-                "tile_x": 2,
-                "tile_y": 31,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 49,
-                "tile_y": 9,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 47,
-                "tile_y": 22,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": 47,
-                "tile_y": 36,
-                "target_room_id": 3,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -6429,7 +5944,7 @@
           "room_id": 126,
           "name": "Ice Palace - Room 0x7E",
           "floor_level": "5F",
-          "layout_row": 4,
+          "floor_index": 4,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6442,12 +5957,6 @@
                 "tile_y": 4,
                 "target_room_id": 28,
                 "target_floor": "8F"
-              },
-              {
-                "tile_x": 18,
-                "tile_y": 25,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -6505,7 +6014,7 @@
           "room_id": 127,
           "name": "Skull Woods Big Chest",
           "floor_level": "5F",
-          "layout_row": 4,
+          "floor_index": 4,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6513,14 +6022,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 1,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -6549,7 +6051,7 @@
           "room_id": 142,
           "name": "Ice Palace - Room 0x8E",
           "floor_level": "5F",
-          "layout_row": 4,
+          "floor_index": 4,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6564,14 +6066,7 @@
                 "target_floor": "6F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -6607,7 +6102,7 @@
           "room_id": 158,
           "name": "Ice Palace - Room 0x9E",
           "floor_level": "6F",
-          "layout_row": 5,
+          "floor_index": 5,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6658,7 +6153,7 @@
           "room_id": 159,
           "name": "Ice Palace - Room 0x9F",
           "floor_level": "6F",
-          "layout_row": 5,
+          "floor_index": 5,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6670,12 +6165,6 @@
                 "tile_x": 49,
                 "tile_y": 48,
                 "target_room_id": 29,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 51,
-                "tile_y": 11,
-                "target_room_id": 0,
                 "target_floor": "1F"
               }
             ],
@@ -6720,7 +6209,7 @@
           "room_id": 174,
           "name": "Ice Palace - Room 0xAE",
           "floor_level": "6F",
-          "layout_row": 5,
+          "floor_index": 5,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6735,12 +6224,6 @@
                 "target_floor": "5F"
               },
               {
-                "tile_x": 28,
-                "tile_y": 37,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
                 "tile_x": 40,
                 "tile_y": 51,
                 "target_room_id": 19,
@@ -6753,14 +6236,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -6786,7 +6262,7 @@
           "room_id": 175,
           "name": "Ice Palace - Room 0xAF",
           "floor_level": "6F",
-          "layout_row": 5,
+          "floor_index": 5,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6798,18 +6274,6 @@
                 "tile_x": 12,
                 "tile_y": 44,
                 "target_room_id": 29,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 28,
-                "tile_y": 14,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 48,
-                "tile_y": 19,
-                "target_room_id": 0,
                 "target_floor": "1F"
               }
             ],
@@ -6834,7 +6298,7 @@
           "room_id": 190,
           "name": "Ice Palace - Room 0xBE",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6847,28 +6311,9 @@
                 "tile_y": 16,
                 "target_room_id": 158,
                 "target_floor": "6F"
-              },
-              {
-                "tile_x": 35,
-                "tile_y": 46,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 19,
-                "tile_y": 30,
-                "target_room_id": 15,
-                "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 79,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -6887,7 +6332,7 @@
           "room_id": 191,
           "name": "Ice Palace - Room 0xBF",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6902,32 +6347,13 @@
                 "target_floor": "6F"
               },
               {
-                "tile_x": 25,
-                "tile_y": 9,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 9,
-                "tile_y": 38,
-                "target_room_id": 15,
-                "target_floor": "1F"
-              },
-              {
                 "tile_x": 37,
                 "tile_y": 13,
                 "target_room_id": 10,
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 79,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": []
         },
@@ -6935,7 +6361,7 @@
           "room_id": 206,
           "name": "Hyrule Castle Secret Cellar",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6943,14 +6369,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 79,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -6969,7 +6388,7 @@
           "room_id": 222,
           "name": "Ice Palace - Room 0xDE",
           "floor_level": "8F",
-          "layout_row": 7,
+          "floor_index": 7,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -6999,7 +6418,7 @@
           "room_id": 7,
           "name": "Tower Of Hera - Room 0x07",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 6,
           "dimensions": {
             "width": 512,
@@ -7022,7 +6441,7 @@
           "room_id": 23,
           "name": "Tower Of Hera - Room 0x17",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 6,
           "dimensions": {
             "width": 512,
@@ -7037,14 +6456,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": 23,
-                "tile_y": 0,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": []
         },
@@ -7052,7 +6464,7 @@
           "room_id": 39,
           "name": "Tower Of Hera - Room 0x27",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 6,
           "dimensions": {
             "width": 512,
@@ -7067,14 +6479,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": 44,
-                "tile_y": 16,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -7093,7 +6498,7 @@
           "room_id": 49,
           "name": "Tower Of Hera - Room 0x31",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 6,
           "dimensions": {
             "width": 512,
@@ -7101,14 +6506,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -7127,7 +6525,7 @@
           "room_id": 119,
           "name": "Tower of Hera",
           "floor_level": "5F",
-          "layout_row": 4,
+          "floor_index": 4,
           "num_floors": 6,
           "dimensions": {
             "width": 512,
@@ -7163,7 +6561,7 @@
           "room_id": 135,
           "name": "Desert Palace West",
           "floor_level": "6F",
-          "layout_row": 5,
+          "floor_index": 5,
           "num_floors": 6,
           "dimensions": {
             "width": 512,
@@ -7171,14 +6569,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 5,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -7214,7 +6605,7 @@
           "room_id": 68,
           "name": "Thieves Town - Room 0x44",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7277,7 +6668,7 @@
           "room_id": 69,
           "name": "Thieves Town - Room 0x45",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7285,14 +6676,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 8,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -7321,7 +6705,7 @@
           "room_id": 100,
           "name": "Thieves Town - Room 0x64",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7344,7 +6728,7 @@
           "room_id": 101,
           "name": "Thieves Town - Room 0x65",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7380,7 +6764,7 @@
           "room_id": 171,
           "name": "Thieves Town - Room 0xAB",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7421,7 +6805,7 @@
           "room_id": 172,
           "name": "Thieves Town - Room 0xAC",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7450,7 +6834,7 @@
           "room_id": 187,
           "name": "Thieves Town - Room 0xBB",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7494,7 +6878,7 @@
           "room_id": 188,
           "name": "Thieves Town - Room 0xBC",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7515,14 +6899,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -7536,7 +6913,7 @@
           "room_id": 203,
           "name": "Thieves Town - Room 0xCB",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7575,7 +6952,7 @@
           "room_id": 204,
           "name": "Thieves Town - Room 0xCC",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7598,7 +6975,7 @@
           "room_id": 219,
           "name": "Thieves's Town",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7648,7 +7025,7 @@
           "room_id": 220,
           "name": "Thieves Town - Room 0xDC",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 3,
           "dimensions": {
             "width": 512,
@@ -7678,7 +7055,7 @@
           "room_id": 4,
           "name": "Turtle Rock - Room 0x04",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -7717,7 +7094,7 @@
           "room_id": 19,
           "name": "Turtle Rock - Room 0x13",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -7761,7 +7138,7 @@
           "room_id": 20,
           "name": "Turtle Rock - Room 0x14",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -7812,7 +7189,7 @@
           "room_id": 21,
           "name": "Turtle Rock - Room 0x15",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -7853,7 +7230,7 @@
           "room_id": 35,
           "name": "Turtle Rock Mountainface 1",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -7897,7 +7274,7 @@
           "room_id": 36,
           "name": "Turtle Rock - Room 0x24",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -7910,22 +7287,9 @@
                 "tile_y": 21,
                 "target_room_id": 17,
                 "target_floor": "3F"
-              },
-              {
-                "tile_x": 31,
-                "tile_y": 34,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 8,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -7951,7 +7315,7 @@
           "room_id": 164,
           "name": "Turtle Rock - Room 0xA4",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -7974,7 +7338,7 @@
           "room_id": 180,
           "name": "Turtle Rock - Room 0xB4",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -7989,14 +7353,7 @@
                 "target_floor": "3F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": 10,
-                "tile_y": 15,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -8022,7 +7379,7 @@
           "room_id": 181,
           "name": "Turtle Rock - Room 0xB5",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -8066,7 +7423,7 @@
           "room_id": 182,
           "name": "Turtle Rock - Room 0xB6",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -8081,14 +7438,7 @@
                 "target_floor": "2F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -8114,7 +7464,7 @@
           "room_id": 183,
           "name": "Turtle Rock - Room 0xB7",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -8152,7 +7502,7 @@
           "room_id": 196,
           "name": "Turtle Rock - Room 0xC4",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -8198,7 +7548,7 @@
           "room_id": 197,
           "name": "Turtle Rock - Room 0xC5",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -8227,7 +7577,7 @@
           "room_id": 198,
           "name": "Turtle Rock - Room 0xC6",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -8271,7 +7621,7 @@
           "room_id": 199,
           "name": "Turtle Rock - Room 0xC7",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -8310,7 +7660,7 @@
           "room_id": 213,
           "name": "Turtle Rock Mountainface 2",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -8346,7 +7696,7 @@
           "room_id": 214,
           "name": "Turtle Rock Main",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 4,
           "dimensions": {
             "width": 512,
@@ -8394,7 +7744,7 @@
           "room_id": 12,
           "name": "Ganon's Tower",
           "floor_level": "6F",
-          "layout_row": 5,
+          "floor_index": 5,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8402,14 +7752,7 @@
           },
           "connections": {
             "staircases": [],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {
@@ -8430,7 +7773,7 @@
           "room_id": 13,
           "name": "Ganons Tower - Room 0x0D",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8459,7 +7802,7 @@
           "room_id": 28,
           "name": "Village of Outcasts Retirement Center",
           "floor_level": "8F",
-          "layout_row": 7,
+          "floor_index": 7,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8503,7 +7846,7 @@
           "room_id": 29,
           "name": "Ganons Tower - Room 0x1D",
           "floor_level": "1F",
-          "layout_row": 0,
+          "floor_index": 0,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8516,24 +7859,6 @@
                 "tile_y": 34,
                 "target_room_id": 28,
                 "target_floor": "8F"
-              },
-              {
-                "tile_x": 18,
-                "tile_y": 49,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 12,
-                "tile_y": 35,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 35,
-                "tile_y": 49,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8564,7 +7889,7 @@
           "room_id": 61,
           "name": "Ganons Tower - Room 0x3D",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8615,7 +7940,7 @@
           "room_id": 76,
           "name": "Ganons Tower - Room 0x4C",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8654,7 +7979,7 @@
           "room_id": 77,
           "name": "Ganons Tower - Room 0x4D",
           "floor_level": "2F",
-          "layout_row": 1,
+          "floor_index": 1,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8667,12 +7992,6 @@
                 "tile_y": 12,
                 "target_room_id": 41,
                 "target_floor": "3F"
-              },
-              {
-                "tile_x": 42,
-                "tile_y": 41,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8711,7 +8030,7 @@
           "room_id": 91,
           "name": "Ganons Tower - Room 0x5B",
           "floor_level": "5F",
-          "layout_row": 4,
+          "floor_index": 4,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8724,12 +8043,6 @@
                 "tile_y": 13,
                 "target_room_id": 10,
                 "target_floor": "2F"
-              },
-              {
-                "tile_x": 48,
-                "tile_y": 48,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8765,7 +8078,7 @@
           "room_id": 92,
           "name": "Ganons Tower - Room 0x5C",
           "floor_level": "5F",
-          "layout_row": 4,
+          "floor_index": 4,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8778,24 +8091,6 @@
                 "tile_y": 49,
                 "target_room_id": 35,
                 "target_floor": "2F"
-              },
-              {
-                "tile_x": 51,
-                "tile_y": 23,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 37,
-                "tile_y": 33,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 29,
-                "tile_y": 33,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8829,7 +8124,7 @@
           "room_id": 93,
           "name": "Ganons Tower - Room 0x5D",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8842,12 +8137,6 @@
                 "tile_y": 17,
                 "target_room_id": 28,
                 "target_floor": "8F"
-              },
-              {
-                "tile_x": 17,
-                "tile_y": 17,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8881,7 +8170,7 @@
           "room_id": 107,
           "name": "Ganons Tower - Room 0x6B",
           "floor_level": "5F",
-          "layout_row": 4,
+          "floor_index": 4,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8925,7 +8214,7 @@
           "room_id": 108,
           "name": "Ganons Tower - Room 0x6C",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -8938,18 +8227,6 @@
                 "tile_y": 13,
                 "target_room_id": 35,
                 "target_floor": "2F"
-              },
-              {
-                "tile_x": 27,
-                "tile_y": 48,
-                "target_room_id": 0,
-                "target_floor": "1F"
-              },
-              {
-                "tile_x": 27,
-                "tile_y": 38,
-                "target_room_id": 5,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8978,7 +8255,7 @@
           "room_id": 109,
           "name": "Desert Palace Boss Lair",
           "floor_level": "4F",
-          "layout_row": 3,
+          "floor_index": 3,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9027,7 +8304,7 @@
           "room_id": 123,
           "name": "Ganons Tower - Room 0x7B",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9086,7 +8363,7 @@
           "room_id": 124,
           "name": "Ganons Tower - Room 0x7C",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9124,7 +8401,7 @@
           "room_id": 125,
           "name": "Ganons Tower - Room 0x7D",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9137,12 +8414,6 @@
                 "tile_y": 10,
                 "target_room_id": 28,
                 "target_floor": "8F"
-              },
-              {
-                "tile_x": 12,
-                "tile_y": 40,
-                "target_room_id": 0,
-                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -9166,7 +8437,7 @@
           "room_id": 139,
           "name": "Ganons Tower - Room 0x8B",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9210,7 +8481,7 @@
           "room_id": 140,
           "name": "Death Mountain Elder's Cave (Upper)",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9223,12 +8494,6 @@
                 "tile_y": 41,
                 "target_room_id": 19,
                 "target_floor": "2F"
-              },
-              {
-                "tile_x": 23,
-                "tile_y": 41,
-                "target_room_id": 0,
-                "target_floor": "1F"
               },
               {
                 "tile_x": 30,
@@ -9313,7 +8578,7 @@
           "room_id": 141,
           "name": "Ganons Tower - Room 0x8D",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9357,7 +8622,7 @@
           "room_id": 149,
           "name": "Ganons Tower - Room 0x95",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9396,7 +8661,7 @@
           "room_id": 150,
           "name": "Ganons Tower - Room 0x96",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9442,7 +8707,7 @@
           "room_id": 155,
           "name": "Ganons Tower - Room 0x9B",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9496,7 +8761,7 @@
           "room_id": 156,
           "name": "Ganons Tower - Room 0x9C",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9532,7 +8797,7 @@
           "room_id": 157,
           "name": "Ganons Tower - Room 0x9D",
           "floor_level": "7F",
-          "layout_row": 6,
+          "floor_index": 6,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9576,7 +8841,7 @@
           "room_id": 165,
           "name": "Storyteller Cave 3",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9635,7 +8900,7 @@
           "room_id": 166,
           "name": "Ganons Tower - Room 0xA6",
           "floor_level": "3F",
-          "layout_row": 2,
+          "floor_index": 2,
           "num_floors": 8,
           "dimensions": {
             "width": 512,
@@ -9650,14 +8915,7 @@
                 "target_floor": "1F"
               }
             ],
-            "pit_falls": [
-              {
-                "tile_x": null,
-                "tile_y": null,
-                "target_room_id": 5,
-                "target_floor": "1F"
-              }
-            ]
+            "pit_falls": []
           },
           "interactive_elements": [
             {

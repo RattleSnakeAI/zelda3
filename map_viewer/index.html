@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Zelda 3 — Multi-Layer Karte</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: { colors: {
+    zelda: { bg: '#0b0f1a', panel: '#131a2a', edge: '#26304a', accent: '#e0b64a', accent2: '#4fd1c5' } } } } };
+</script>
+<style>
+  html, body { height: 100%; }
+  body { background: #0b0f1a; }
+  .scroll-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+  .scroll-thin::-webkit-scrollbar-thumb { background: #26304a; border-radius: 4px; }
+  #world-canvas { cursor: grab; }
+  #world-canvas.dragging { cursor: grabbing; }
+  .floor-btn.active { background: #e0b64a; color: #0b0f1a; }
+  .room-thumb.selected { outline: 2px solid #4fd1c5; }
+</style>
+</head>
+<body class="text-slate-200 font-sans">
+<div class="flex flex-col h-screen">
+
+  <!-- Header -->
+  <header class="flex items-center gap-4 px-5 py-3 bg-zelda-panel border-b border-zelda-edge">
+    <h1 class="text-lg font-bold tracking-wide">
+      <span class="text-zelda-accent">Zelda 3</span> · Multi-Layer Karte
+    </h1>
+    <div class="flex items-center gap-2 ml-4">
+      <button id="world-light" class="px-3 py-1 rounded bg-zelda-accent text-black font-semibold text-sm">Light World</button>
+      <button id="world-dark" class="px-3 py-1 rounded bg-zelda-edge text-slate-300 font-semibold text-sm">Dark World</button>
+    </div>
+    <div class="flex items-center gap-3 ml-auto text-sm">
+      <label class="flex items-center gap-1 cursor-pointer">
+        <input type="checkbox" id="f-chests" checked class="accent-zelda-accent"> Truhen
+      </label>
+      <label class="flex items-center gap-1 cursor-pointer">
+        <input type="checkbox" id="f-connections" checked class="accent-zelda-accent"> Treppen/Falllöcher
+      </label>
+      <label class="flex items-center gap-1 cursor-pointer">
+        <input type="checkbox" id="f-doors" checked class="accent-zelda-accent"> Türen
+      </label>
+      <label class="flex items-center gap-1 cursor-pointer">
+        <input type="checkbox" id="f-bosses" checked class="accent-zelda-accent"> Bosse
+      </label>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="flex-1 grid grid-cols-1 lg:grid-cols-[1fr_420px] overflow-hidden">
+
+    <!-- Overworld map -->
+    <section class="relative bg-black/40 overflow-hidden">
+      <canvas id="world-canvas" class="w-full h-full block"></canvas>
+      <div class="absolute top-3 left-3 text-xs text-slate-400 bg-black/50 rounded px-2 py-1">
+        Mausrad = Zoom · Ziehen = Pan · Klick auf Marker = Dungeon öffnen
+      </div>
+      <div class="absolute bottom-3 left-3 text-xs text-slate-400 bg-black/50 rounded px-2 py-1" id="world-hint"></div>
+    </section>
+
+    <!-- Dungeon detail -->
+    <aside class="bg-zelda-panel border-l border-zelda-edge flex flex-col overflow-hidden">
+      <div class="px-4 py-3 border-b border-zelda-edge">
+        <select id="dungeon-select" class="w-full bg-zelda-bg border border-zelda-edge rounded px-2 py-2 text-sm">
+          <option value="">— Dungeon wählen —</option>
+        </select>
+        <div id="dungeon-meta" class="text-xs text-slate-400 mt-2"></div>
+      </div>
+
+      <div class="flex-1 flex overflow-hidden">
+        <!-- vertical floor slider -->
+        <div id="floor-slider" class="w-16 border-r border-zelda-edge overflow-y-auto scroll-thin flex flex-col items-stretch p-1 gap-1"></div>
+
+        <!-- floor content -->
+        <div class="flex-1 flex flex-col overflow-hidden">
+          <div id="room-strip" class="flex gap-2 p-2 overflow-x-auto scroll-thin border-b border-zelda-edge"></div>
+          <div id="room-view" class="flex-1 overflow-auto scroll-thin p-3 flex items-start justify-center">
+            <div class="text-slate-500 text-sm mt-10">Kein Raum ausgewählt.</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+</div>
+
+<!-- overlay svg for cross-panel connection lines -->
+<svg id="link-overlay" class="pointer-events-none fixed inset-0 w-full h-full" style="z-index:50"></svg>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
