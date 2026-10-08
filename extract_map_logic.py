@@ -270,7 +270,7 @@ def extract():
                         staircases.append({
                             "tile_x": tx, "tile_y": ty,
                             "target_room_id": tgt,
-                            "target_floor": floor_label(floor_of_room.get(tgt)),
+                            "target_floor": floor_label(room_floor.get(tgt, 0)),
                         })
 
             pit_falls = []
@@ -281,16 +281,20 @@ def extract():
                 pit_falls.append({
                     "tile_x": tx, "tile_y": ty,
                     "target_room_id": tgt,
-                    "target_floor": floor_label(floor_of_room.get(tgt)),
+                    "target_floor": floor_label(room_floor.get(tgt, 0)),
                 })
 
+            chest_objs = [(o["x"], o["y"]) for layer in layers for o in layer
+                          if "chest" in o.get("n", "").lower()]
             interactive = []
-            for chest in d.get("Chests", []):
+            for ci, chest in enumerate(d.get("Chests", [])):
                 big = isinstance(chest, str) and chest.endswith("!")
+                cx, cy = chest_objs[ci] if ci < len(chest_objs) else (None, None)
                 interactive.append({
                     "type": "chest",
                     "item_id": int(chest[:-1]) if big else chest,
                     "big_chest": big,
+                    "tile_x": cx, "tile_y": cy,
                 })
             interactive += door_entries([d.get("Layer1.doors"), d.get("Layer2.doors"), d.get("Layer3.doors")])
 

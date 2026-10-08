@@ -43,13 +43,13 @@
                 "tile_x": 26,
                 "tile_y": 39,
                 "target_room_id": 34,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 30,
                 "tile_y": 51,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -57,7 +57,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -85,7 +85,7 @@
                 "tile_x": 46,
                 "tile_y": 4,
                 "target_room_id": 6,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -93,7 +93,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 4,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -132,7 +132,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -140,17 +140,23 @@
             {
               "type": "chest",
               "item_id": 63,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 26,
+              "tile_y": 8
             },
             {
               "type": "chest",
               "item_id": 63,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 0,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -186,7 +192,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 13,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -208,7 +214,7 @@
                 "tile_x": 26,
                 "tile_y": 36,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -216,7 +222,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 1,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -224,7 +230,9 @@
             {
               "type": "chest",
               "item_id": 64,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 34,
+              "tile_y": 46
             },
             {
               "type": "locked_door",
@@ -250,7 +258,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 13,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -283,7 +291,7 @@
                 "tile_x": 14,
                 "tile_y": 4,
                 "target_room_id": 113,
-                "target_floor": null
+                "target_floor": "4F"
               }
             ],
             "pit_falls": [
@@ -291,7 +299,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -299,7 +307,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 6,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -325,7 +335,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 13,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -380,13 +390,13 @@
                 "tile_x": 26,
                 "tile_y": 39,
                 "target_room_id": 34,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 30,
                 "tile_y": 51,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -394,7 +404,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -422,7 +432,7 @@
                 "tile_x": 26,
                 "tile_y": 36,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -430,7 +440,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 1,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -438,7 +448,9 @@
             {
               "type": "chest",
               "item_id": 64,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 34,
+              "tile_y": 46
             },
             {
               "type": "locked_door",
@@ -464,7 +476,7 @@
                 "tile_x": 6,
                 "tile_y": 46,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -487,7 +499,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 13,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -521,7 +533,7 @@
                 "tile_x": 14,
                 "tile_y": 46,
                 "target_room_id": 41,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ]
           },
@@ -529,7 +541,9 @@
             {
               "type": "chest",
               "item_id": 10,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 14,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -574,7 +588,7 @@
                 "tile_x": 14,
                 "tile_y": 4,
                 "target_room_id": 113,
-                "target_floor": null
+                "target_floor": "4F"
               }
             ],
             "pit_falls": [
@@ -582,7 +596,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -590,7 +604,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 6,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -616,7 +632,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 13,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -664,13 +680,13 @@
                 "tile_x": 46,
                 "tile_y": 47,
                 "target_room_id": 4,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 46,
                 "tile_y": 23,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -678,7 +694,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 3,
-                "target_floor": "B1"
+                "target_floor": "1F"
               }
             ]
           },
@@ -686,7 +702,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 43,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -717,7 +735,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 3,
-                "target_floor": "B1"
+                "target_floor": "1F"
               }
             ]
           },
@@ -725,7 +743,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 49,
+              "tile_y": 12
             },
             {
               "type": "locked_door",
@@ -750,25 +770,25 @@
                 "tile_x": 42,
                 "tile_y": 23,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 30,
                 "tile_y": 38,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 39,
                 "tile_y": 38,
                 "target_room_id": 50,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 21,
                 "tile_y": 38,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -776,7 +796,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 13,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -784,7 +804,9 @@
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 31,
+              "tile_y": 19
             },
             {
               "type": "locked_door",
@@ -809,19 +831,19 @@
                 "tile_x": 44,
                 "tile_y": 46,
                 "target_room_id": 4,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 32,
                 "tile_y": 42,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 30,
                 "tile_y": 23,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -829,7 +851,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 3,
-                "target_floor": "B1"
+                "target_floor": "1F"
               }
             ]
           },
@@ -837,7 +859,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 54,
+              "tile_y": 19
             },
             {
               "type": "locked_door",
@@ -882,7 +906,7 @@
                 "tile_x": 46,
                 "tile_y": 13,
                 "target_room_id": 114,
-                "target_floor": null
+                "target_floor": "4F"
               }
             ],
             "pit_falls": [
@@ -890,7 +914,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -948,7 +972,7 @@
                 "tile_x": 38,
                 "tile_y": 38,
                 "target_room_id": 3,
-                "target_floor": "B1"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -956,7 +980,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 3,
-                "target_floor": "B1"
+                "target_floor": "1F"
               }
             ]
           },
@@ -964,12 +988,16 @@
             {
               "type": "chest",
               "item_id": 18,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 50,
+              "tile_y": 8
             },
             {
               "type": "chest",
               "item_id": 11,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 46,
+              "tile_y": 23
             },
             {
               "type": "locked_door",
@@ -1000,7 +1028,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -1022,19 +1050,19 @@
                 "tile_x": 34,
                 "tile_y": 10,
                 "target_room_id": 113,
-                "target_floor": null
+                "target_floor": "4F"
               },
               {
                 "tile_x": 10,
                 "tile_y": 42,
                 "target_room_id": 128,
-                "target_floor": "B1"
+                "target_floor": "4F"
               },
               {
                 "tile_x": 55,
                 "tile_y": 28,
                 "target_room_id": 113,
-                "target_floor": null
+                "target_floor": "4F"
               }
             ],
             "pit_falls": [
@@ -1042,7 +1070,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -1050,7 +1078,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 43,
+              "tile_y": 32
             }
           ]
         },
@@ -1070,25 +1100,25 @@
                 "tile_x": 53,
                 "tile_y": 28,
                 "target_room_id": 112,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 27,
                 "tile_y": 49,
                 "target_room_id": 65,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 11,
                 "tile_y": 15,
                 "target_room_id": 192,
-                "target_floor": null
+                "target_floor": "4F"
               },
               {
                 "tile_x": 14,
                 "tile_y": 4,
                 "target_room_id": 1,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -1096,7 +1126,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -1104,7 +1134,9 @@
             {
               "type": "chest",
               "item_id": 12,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             }
           ]
         },
@@ -1124,7 +1156,7 @@
                 "tile_x": 46,
                 "tile_y": 13,
                 "target_room_id": 97,
-                "target_floor": "1F"
+                "target_floor": "3F"
               }
             ],
             "pit_falls": [
@@ -1132,7 +1164,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -1140,7 +1172,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 19,
+              "tile_y": 32
             }
           ]
         },
@@ -1161,7 +1195,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 1,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -1183,7 +1217,7 @@
                 "tile_x": 27,
                 "tile_y": 11,
                 "target_room_id": 39,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ],
             "pit_falls": [
@@ -1191,7 +1225,7 @@
                 "tile_x": 36,
                 "tile_y": 44,
                 "target_room_id": 1,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -1213,7 +1247,7 @@
                 "tile_x": 22,
                 "tile_y": 15,
                 "target_room_id": 25,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -1221,7 +1255,7 @@
                 "tile_x": 9,
                 "tile_y": 30,
                 "target_room_id": 13,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -1243,19 +1277,19 @@
                 "tile_x": 52,
                 "tile_y": 44,
                 "target_room_id": 218,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 22,
                 "tile_y": 45,
                 "target_room_id": 169,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 6,
                 "tile_y": 42,
                 "target_room_id": 192,
-                "target_floor": null
+                "target_floor": "4F"
               },
               {
                 "tile_x": 40,
@@ -1269,7 +1303,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 169,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1307,13 +1341,13 @@
                 "tile_x": 46,
                 "tile_y": 29,
                 "target_room_id": 8,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 46,
                 "tile_y": 11,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -1321,7 +1355,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1329,7 +1363,9 @@
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 15,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -1374,19 +1410,19 @@
                 "tile_x": 6,
                 "tile_y": 42,
                 "target_room_id": 153,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 45,
                 "tile_y": 11,
                 "target_room_id": 192,
-                "target_floor": null
+                "target_floor": "4F"
               },
               {
                 "tile_x": 45,
                 "tile_y": 19,
                 "target_room_id": 26,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -1394,7 +1430,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 137,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -1402,7 +1438,9 @@
             {
               "type": "chest",
               "item_id": 75,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 14,
+              "tile_y": 16
             },
             {
               "type": "locked_door",
@@ -1457,13 +1495,13 @@
                 "tile_x": 46,
                 "tile_y": 44,
                 "target_room_id": 27,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 18,
                 "tile_y": 11,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -1471,7 +1509,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1479,7 +1517,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 47,
+              "tile_y": 12
             },
             {
               "type": "locked_door",
@@ -1535,7 +1575,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1543,7 +1583,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 16,
+              "tile_y": 40
             },
             {
               "type": "locked_door",
@@ -1589,7 +1631,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1597,7 +1639,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 22,
+              "tile_y": 22
             },
             {
               "type": "locked_door",
@@ -1652,7 +1696,7 @@
                 "tile_x": 51,
                 "tile_y": 46,
                 "target_room_id": 27,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -1660,7 +1704,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1704,7 +1748,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1733,7 +1777,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1777,7 +1821,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1806,7 +1850,7 @@
                 "tile_x": 19,
                 "tile_y": 15,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1859,7 +1903,7 @@
                 "tile_x": 22,
                 "tile_y": 45,
                 "target_room_id": 153,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -1867,7 +1911,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 168,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1912,19 +1956,19 @@
                 "tile_x": 52,
                 "tile_y": 44,
                 "target_room_id": 218,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 22,
                 "tile_y": 45,
                 "target_room_id": 169,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 6,
                 "tile_y": 42,
                 "target_room_id": 192,
-                "target_floor": null
+                "target_floor": "4F"
               },
               {
                 "tile_x": 40,
@@ -1938,7 +1982,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 169,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1976,13 +2020,13 @@
                 "tile_x": 46,
                 "tile_y": 29,
                 "target_room_id": 8,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 46,
                 "tile_y": 11,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -1990,7 +2034,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -1998,7 +2042,9 @@
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 15,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -2043,19 +2089,19 @@
                 "tile_x": 6,
                 "tile_y": 42,
                 "target_room_id": 153,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 45,
                 "tile_y": 11,
                 "target_room_id": 192,
-                "target_floor": null
+                "target_floor": "4F"
               },
               {
                 "tile_x": 45,
                 "tile_y": 19,
                 "target_room_id": 26,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -2063,7 +2109,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 137,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -2071,7 +2117,9 @@
             {
               "type": "chest",
               "item_id": 75,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 14,
+              "tile_y": 16
             },
             {
               "type": "locked_door",
@@ -2126,13 +2174,13 @@
                 "tile_x": 46,
                 "tile_y": 44,
                 "target_room_id": 27,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 18,
                 "tile_y": 11,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -2140,7 +2188,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -2148,7 +2196,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 47,
+              "tile_y": 12
             },
             {
               "type": "locked_door",
@@ -2204,7 +2254,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -2212,7 +2262,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 16,
+              "tile_y": 40
             },
             {
               "type": "locked_door",
@@ -2258,7 +2310,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -2266,7 +2318,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 22,
+              "tile_y": 22
             },
             {
               "type": "locked_door",
@@ -2321,7 +2375,7 @@
                 "tile_x": 51,
                 "tile_y": 46,
                 "target_room_id": 27,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -2329,7 +2383,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -2373,7 +2427,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -2402,7 +2456,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -2446,7 +2500,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -2475,7 +2529,7 @@
                 "tile_x": 19,
                 "tile_y": 15,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -2528,7 +2582,7 @@
                 "tile_x": 22,
                 "tile_y": 45,
                 "target_room_id": 153,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -2536,7 +2590,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 168,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -2582,7 +2636,7 @@
                 "tile_x": 40,
                 "tile_y": 18,
                 "target_room_id": 117,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ]
           },
@@ -2605,7 +2659,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 8,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -2613,7 +2667,9 @@
             {
               "type": "chest",
               "item_id": 64,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 46,
+              "tile_y": 40
             },
             {
               "type": "locked_door",
@@ -2653,7 +2709,7 @@
                 "tile_x": 22,
                 "tile_y": 45,
                 "target_room_id": 51,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -2661,7 +2717,7 @@
                 "tile_x": 20,
                 "tile_y": 30,
                 "target_room_id": 51,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -2669,7 +2725,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 52,
+              "tile_y": 15
             },
             {
               "type": "locked_door",
@@ -2694,13 +2752,13 @@
                 "tile_x": 9,
                 "tile_y": 4,
                 "target_room_id": 116,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 46,
                 "tile_y": 49,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -2708,7 +2766,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 116,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ]
           },
@@ -2731,7 +2789,7 @@
                 "tile_x": 25,
                 "tile_y": 11,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -2739,7 +2797,9 @@
             {
               "type": "chest",
               "item_id": 27,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 14,
+              "tile_y": 7
             },
             {
               "type": "locked_door",
@@ -2774,7 +2834,7 @@
                 "tile_x": 9,
                 "tile_y": 4,
                 "target_room_id": 99,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -2782,7 +2842,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 5,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -2790,7 +2850,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 49,
+              "tile_y": 22
             },
             {
               "type": "locked_door",
@@ -2826,7 +2888,7 @@
                 "tile_x": 17,
                 "tile_y": 33,
                 "target_room_id": 8,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -2834,12 +2896,16 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 47,
+              "tile_y": 53
             },
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 47,
+              "tile_y": 45
             },
             {
               "type": "locked_door",
@@ -2884,13 +2950,13 @@
                 "tile_x": 11,
                 "tile_y": 45,
                 "target_room_id": 25,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 36,
                 "tile_y": 50,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -2898,7 +2964,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 13,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -2906,7 +2972,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 27,
+              "tile_y": 55
             },
             {
               "type": "locked_door",
@@ -2947,7 +3015,7 @@
                 "tile_x": 5,
                 "tile_y": 41,
                 "target_room_id": 13,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -2991,7 +3059,7 @@
                 "tile_x": 31,
                 "tile_y": 14,
                 "target_room_id": 5,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -3032,7 +3100,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 1,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -3061,7 +3129,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 5,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -3069,7 +3137,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 47,
+              "tile_y": 14
             },
             {
               "type": "locked_door",
@@ -3105,7 +3175,7 @@
                 "tile_x": 25,
                 "tile_y": 9,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -3154,7 +3224,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 160,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -3162,7 +3232,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 15,
+              "tile_y": 49
             },
             {
               "type": "locked_door",
@@ -3198,7 +3270,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -3206,7 +3278,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 56,
+              "tile_y": 40
             },
             {
               "type": "locked_door",
@@ -3252,7 +3326,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -3260,12 +3334,16 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 46,
+              "tile_y": 8
             },
             {
               "type": "chest",
               "item_id": 0,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -3301,7 +3379,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 6,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -3309,7 +3387,9 @@
             {
               "type": "chest",
               "item_id": 71,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 40,
+              "tile_y": 7
             },
             {
               "type": "locked_door",
@@ -3357,7 +3437,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 8,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -3385,13 +3465,13 @@
                 "tile_x": 47,
                 "tile_y": 36,
                 "target_room_id": 39,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 18,
                 "tile_y": 20,
                 "target_room_id": 32,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -3399,7 +3479,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -3407,12 +3487,16 @@
             {
               "type": "chest",
               "item_id": 37,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 0,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -3437,25 +3521,25 @@
                 "tile_x": 30,
                 "tile_y": 4,
                 "target_room_id": 68,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 47,
                 "tile_y": 4,
                 "target_room_id": 68,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 13,
                 "tile_y": 4,
                 "target_room_id": 68,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 41,
                 "tile_y": 44,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -3463,7 +3547,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -3491,13 +3575,13 @@
                 "tile_x": 30,
                 "tile_y": 47,
                 "target_room_id": 56,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 46,
                 "tile_y": 4,
                 "target_room_id": 192,
-                "target_floor": null
+                "target_floor": "4F"
               }
             ],
             "pit_falls": [
@@ -3505,7 +3589,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -3513,12 +3597,16 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 32,
+              "tile_y": 31
             },
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -3548,13 +3636,13 @@
                 "tile_x": 25,
                 "tile_y": 31,
                 "target_room_id": 53,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 50,
                 "tile_y": 34,
                 "target_room_id": 128,
-                "target_floor": "B1"
+                "target_floor": "4F"
               }
             ],
             "pit_falls": [
@@ -3562,7 +3650,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 53,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -3570,12 +3658,16 @@
             {
               "type": "chest",
               "item_id": 10,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 0,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": null,
+              "tile_y": null
             }
           ]
         },
@@ -3595,25 +3687,25 @@
                 "tile_x": 11,
                 "tile_y": 34,
                 "target_room_id": 102,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 24,
                 "tile_y": 4,
                 "target_room_id": 55,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 48,
                 "tile_y": 10,
                 "target_room_id": 52,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 21,
                 "tile_y": 41,
                 "target_room_id": 128,
-                "target_floor": "B1"
+                "target_floor": "4F"
               }
             ],
             "pit_falls": [
@@ -3621,7 +3713,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 56,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -3629,7 +3721,9 @@
             {
               "type": "chest",
               "item_id": 42,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 52,
+              "tile_y": 30
             },
             {
               "type": "locked_door",
@@ -3654,7 +3748,7 @@
                 "tile_x": 14,
                 "tile_y": 40,
                 "target_room_id": 17,
-                "target_floor": "B1"
+                "target_floor": "3F"
               }
             ],
             "pit_falls": [
@@ -3662,7 +3756,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 8,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -3670,12 +3764,16 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 42,
+              "tile_y": 12
             },
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 51,
+              "tile_y": 40
             },
             {
               "type": "locked_door",
@@ -3700,19 +3798,19 @@
                 "tile_x": 48,
                 "tile_y": 10,
                 "target_room_id": 53,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 29,
                 "tile_y": 51,
                 "target_room_id": 192,
-                "target_floor": null
+                "target_floor": "4F"
               },
               {
                 "tile_x": 19,
                 "tile_y": 45,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -3720,7 +3818,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -3728,7 +3826,9 @@
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 51,
+              "tile_y": 31
             },
             {
               "type": "locked_door",
@@ -3753,7 +3853,7 @@
                 "tile_x": 32,
                 "tile_y": 4,
                 "target_room_id": 23,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 46,
@@ -3767,7 +3867,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 53,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -3811,7 +3911,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -3819,7 +3919,9 @@
             {
               "type": "chest",
               "item_id": 0,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 20,
+              "tile_y": 29
             }
           ]
         },
@@ -3862,7 +3964,7 @@
                 "tile_x": 24,
                 "tile_y": 4,
                 "target_room_id": 53,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -3870,7 +3972,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -3878,12 +3980,16 @@
             {
               "type": "chest",
               "item_id": 37,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 54,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             }
           ]
         },
@@ -3903,7 +4009,7 @@
                 "tile_x": 16,
                 "tile_y": 43,
                 "target_room_id": 54,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -3911,7 +4017,7 @@
                 "tile_x": 44,
                 "tile_y": 16,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -3919,12 +4025,16 @@
             {
               "type": "chest",
               "item_id": 54,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 54,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -3980,7 +4090,7 @@
                 "tile_x": 5,
                 "tile_y": 7,
                 "target_room_id": 75,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -3988,7 +4098,9 @@
             {
               "type": "chest",
               "item_id": 65,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 24,
+              "tile_y": 54
             },
             {
               "type": "locked_door",
@@ -4013,7 +4125,7 @@
                 "tile_x": 6,
                 "tile_y": 29,
                 "target_room_id": 58,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -4021,7 +4133,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 9,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -4029,7 +4141,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 39,
+              "tile_y": 30
             }
           ]
         },
@@ -4049,7 +4163,7 @@
                 "tile_x": 49,
                 "tile_y": 12,
                 "target_room_id": 27,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -4057,7 +4171,7 @@
                 "tile_x": 6,
                 "tile_y": 8,
                 "target_room_id": 106,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -4091,7 +4205,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -4099,7 +4213,9 @@
             {
               "type": "chest",
               "item_id": 21,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 12,
+              "tile_y": 48
             },
             {
               "type": "locked_door",
@@ -4125,7 +4241,7 @@
                 "tile_x": 13,
                 "tile_y": 26,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -4173,7 +4289,7 @@
                 "tile_x": 49,
                 "tile_y": 12,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -4181,7 +4297,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -4220,7 +4336,7 @@
                 "tile_x": 8,
                 "tile_y": 11,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -4273,7 +4389,7 @@
                 "tile_x": 11,
                 "tile_y": 38,
                 "target_room_id": 59,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -4281,7 +4397,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 59,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -4319,7 +4435,7 @@
                 "tile_x": 6,
                 "tile_y": 29,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -4327,7 +4443,7 @@
                 "tile_x": 6,
                 "tile_y": 54,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -4335,7 +4451,9 @@
             {
               "type": "chest",
               "item_id": 49,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 11,
+              "tile_y": 45
             },
             {
               "type": "locked_door",
@@ -4371,7 +4489,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 43,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -4409,13 +4527,13 @@
                 "tile_x": 46,
                 "tile_y": 4,
                 "target_room_id": 9,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 14,
                 "tile_y": 4,
                 "target_room_id": 9,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -4423,7 +4541,7 @@
                 "tile_x": 5,
                 "tile_y": 37,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -4462,7 +4580,7 @@
                 "tile_x": 24,
                 "tile_y": 47,
                 "target_room_id": 9,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -4470,7 +4588,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 15,
+              "tile_y": 12
             },
             {
               "type": "locked_door",
@@ -4543,12 +4663,16 @@
             {
               "type": "chest",
               "item_id": 71,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 30,
+              "tile_y": 11
             },
             {
               "type": "chest",
               "item_id": 0,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -4581,7 +4705,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -4603,7 +4727,7 @@
                 "tile_x": 46,
                 "tile_y": 20,
                 "target_room_id": 210,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -4611,7 +4735,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 101,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -4619,7 +4743,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 15,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -4660,7 +4786,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -4708,19 +4834,19 @@
                 "tile_x": 46,
                 "tile_y": 4,
                 "target_room_id": 162,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 14,
                 "tile_y": 43,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 14,
                 "tile_y": 26,
                 "target_room_id": 37,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -4728,7 +4854,7 @@
                 "tile_x": 18,
                 "tile_y": 45,
                 "target_room_id": 163,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -4767,7 +4893,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 209,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -4775,7 +4901,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -4810,7 +4938,7 @@
                 "tile_x": 54,
                 "tile_y": 4,
                 "target_room_id": 160,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -4818,7 +4946,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -4872,12 +5000,16 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 7,
+              "tile_y": 40
             },
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -4918,7 +5050,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -4951,7 +5083,7 @@
                 "tile_x": 46,
                 "tile_y": 4,
                 "target_room_id": 147,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ],
             "pit_falls": [
@@ -4959,7 +5091,7 @@
                 "tile_x": 10,
                 "tile_y": 11,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -4967,7 +5099,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 6,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -4998,7 +5132,7 @@
                 "tile_x": 13,
                 "tile_y": 49,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -5006,7 +5140,9 @@
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             }
           ]
         },
@@ -5027,7 +5163,7 @@
                 "tile_x": 37,
                 "tile_y": 58,
                 "target_room_id": 160,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -5035,7 +5171,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -5066,7 +5204,7 @@
                 "tile_x": 28,
                 "tile_y": 18,
                 "target_room_id": 209,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -5110,7 +5248,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 13,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -5118,12 +5256,16 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -5169,7 +5311,7 @@
                 "tile_x": 39,
                 "tile_y": 6,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -5228,7 +5370,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -5236,7 +5378,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -5276,13 +5420,13 @@
                 "tile_x": 46,
                 "tile_y": 36,
                 "target_room_id": 188,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 48,
                 "tile_y": 8,
                 "target_room_id": 188,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -5290,7 +5434,7 @@
                 "tile_x": 43,
                 "tile_y": 39,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -5298,7 +5442,9 @@
             {
               "type": "chest",
               "item_id": 24,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 7,
+              "tile_y": 42
             },
             {
               "type": "locked_door",
@@ -5339,7 +5485,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 151,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -5382,7 +5528,7 @@
                 "tile_x": 46,
                 "tile_y": 20,
                 "target_room_id": 145,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ],
             "pit_falls": [
@@ -5390,7 +5536,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 211,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -5436,7 +5582,7 @@
                 "tile_x": 6,
                 "tile_y": 46,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -5459,7 +5605,7 @@
                 "tile_x": 14,
                 "tile_y": 46,
                 "target_room_id": 41,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ]
           },
@@ -5467,7 +5613,9 @@
             {
               "type": "chest",
               "item_id": 10,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 14,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -5513,7 +5661,7 @@
                 "tile_x": 22,
                 "tile_y": 19,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -5567,7 +5715,7 @@
                 "tile_x": 18,
                 "tile_y": 48,
                 "target_room_id": 7,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -5575,7 +5723,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 47,
+              "tile_y": 9
             },
             {
               "type": "locked_door",
@@ -5611,7 +5761,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -5634,7 +5784,7 @@
                 "tile_x": 47,
                 "tile_y": 19,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -5642,12 +5792,16 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 14,
+              "tile_y": 8
             },
             {
               "type": "chest",
               "item_id": 58,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -5697,13 +5851,13 @@
                 "tile_x": 46,
                 "tile_y": 14,
                 "target_room_id": 21,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 14,
                 "tile_y": 14,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -5711,7 +5865,7 @@
                 "tile_x": 42,
                 "tile_y": 10,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -5755,7 +5909,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -5763,7 +5917,9 @@
             {
               "type": "chest",
               "item_id": 0,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -5798,13 +5954,13 @@
                 "tile_x": 47,
                 "tile_y": 25,
                 "target_room_id": 35,
-                "target_floor": "B1"
+                "target_floor": "2F"
               },
               {
                 "tile_x": 13,
                 "tile_y": 15,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -5812,7 +5968,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -5858,7 +6014,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 19,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -5887,7 +6043,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -5930,7 +6086,7 @@
                 "tile_x": 43,
                 "tile_y": 41,
                 "target_room_id": 4,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -5938,7 +6094,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 1,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -5972,7 +6128,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 6,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6001,7 +6157,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6024,7 +6180,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6067,19 +6223,19 @@
                 "tile_x": 17,
                 "tile_y": 48,
                 "target_room_id": 28,
-                "target_floor": "1F"
+                "target_floor": "8F"
               },
               {
                 "tile_x": 56,
                 "tile_y": 36,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 43,
                 "tile_y": 47,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -6087,7 +6243,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6095,12 +6251,16 @@
             {
               "type": "chest",
               "item_id": 59,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 10,
+              "tile_y": 9
             },
             {
               "type": "chest",
               "item_id": 26,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 18,
+              "tile_y": 9
             },
             {
               "type": "locked_door",
@@ -6130,19 +6290,19 @@
                 "tile_x": 42,
                 "tile_y": 26,
                 "target_room_id": 28,
-                "target_floor": "1F"
+                "target_floor": "8F"
               },
               {
                 "tile_x": 6,
                 "tile_y": 3,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 19,
                 "tile_y": 51,
                 "target_room_id": 39,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ],
             "pit_falls": [
@@ -6150,7 +6310,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6172,19 +6332,19 @@
                 "tile_x": 49,
                 "tile_y": 13,
                 "target_room_id": 4,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 11,
                 "tile_y": 54,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 42,
                 "tile_y": 22,
                 "target_room_id": 23,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -6192,7 +6352,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 3,
-                "target_floor": "B1"
+                "target_floor": "1F"
               }
             ]
           },
@@ -6200,7 +6360,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 14,
+              "tile_y": 12
             },
             {
               "type": "locked_door",
@@ -6225,25 +6387,25 @@
                 "tile_x": 5,
                 "tile_y": 11,
                 "target_room_id": 4,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 2,
                 "tile_y": 31,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 49,
                 "tile_y": 9,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 47,
                 "tile_y": 22,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -6251,7 +6413,7 @@
                 "tile_x": 47,
                 "tile_y": 36,
                 "target_room_id": 3,
-                "target_floor": "B1"
+                "target_floor": "1F"
               }
             ]
           },
@@ -6279,13 +6441,13 @@
                 "tile_x": 2,
                 "tile_y": 4,
                 "target_room_id": 28,
-                "target_floor": "1F"
+                "target_floor": "8F"
               },
               {
                 "tile_x": 18,
                 "tile_y": 25,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -6293,7 +6455,7 @@
                 "tile_x": 43,
                 "tile_y": 20,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6301,12 +6463,16 @@
             {
               "type": "chest",
               "item_id": 40,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -6352,7 +6518,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 1,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -6395,7 +6561,7 @@
                 "tile_x": 39,
                 "tile_y": 4,
                 "target_room_id": 174,
-                "target_floor": null
+                "target_floor": "6F"
               }
             ],
             "pit_falls": [
@@ -6403,7 +6569,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -6411,7 +6577,9 @@
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 15,
+              "tile_y": 46
             },
             {
               "type": "locked_door",
@@ -6452,7 +6620,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6460,7 +6628,9 @@
             {
               "type": "chest",
               "item_id": 34,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -6500,13 +6670,13 @@
                 "tile_x": 49,
                 "tile_y": 48,
                 "target_room_id": 29,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 51,
                 "tile_y": 11,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -6514,7 +6684,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6562,25 +6732,25 @@
                 "tile_x": 39,
                 "tile_y": 4,
                 "target_room_id": 142,
-                "target_floor": null
+                "target_floor": "5F"
               },
               {
                 "tile_x": 28,
                 "tile_y": 37,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 40,
                 "tile_y": 51,
                 "target_room_id": 19,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 41,
                 "tile_y": 14,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -6588,7 +6758,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -6596,7 +6766,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 22,
+              "tile_y": 17
             },
             {
               "type": "locked_door",
@@ -6626,19 +6798,19 @@
                 "tile_x": 12,
                 "tile_y": 44,
                 "target_room_id": 29,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 28,
                 "tile_y": 14,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 48,
                 "tile_y": 19,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -6646,7 +6818,7 @@
                 "tile_x": 11,
                 "tile_y": 55,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6674,19 +6846,19 @@
                 "tile_x": 22,
                 "tile_y": 16,
                 "target_room_id": 158,
-                "target_floor": null
+                "target_floor": "6F"
               },
               {
                 "tile_x": 35,
                 "tile_y": 46,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 19,
                 "tile_y": 30,
                 "target_room_id": 15,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -6694,7 +6866,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 79,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -6727,25 +6899,25 @@
                 "tile_x": 10,
                 "tile_y": 17,
                 "target_room_id": 158,
-                "target_floor": null
+                "target_floor": "6F"
               },
               {
                 "tile_x": 25,
                 "tile_y": 9,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 9,
                 "tile_y": 38,
                 "target_room_id": 15,
-                "target_floor": null
+                "target_floor": "1F"
               },
               {
                 "tile_x": 37,
                 "tile_y": 13,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -6753,7 +6925,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 79,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -6776,7 +6948,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 79,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -6810,7 +6982,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 6,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6840,7 +7012,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 6,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -6862,7 +7034,7 @@
                 "tile_x": 32,
                 "tile_y": 4,
                 "target_room_id": 56,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -6870,7 +7042,7 @@
                 "tile_x": 23,
                 "tile_y": 0,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -6892,7 +7064,7 @@
                 "tile_x": 47,
                 "tile_y": 36,
                 "target_room_id": 22,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -6900,7 +7072,7 @@
                 "tile_x": 44,
                 "tile_y": 16,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -6934,7 +7106,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -6976,7 +7148,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 25,
+              "tile_y": 10
             },
             {
               "type": "locked_door",
@@ -7002,7 +7176,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 5,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -7052,25 +7226,25 @@
                 "tile_x": 30,
                 "tile_y": 4,
                 "target_room_id": 38,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 47,
                 "tile_y": 4,
                 "target_room_id": 38,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 13,
                 "tile_y": 4,
                 "target_room_id": 38,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 39,
                 "tile_y": 27,
                 "target_room_id": 96,
-                "target_floor": "B3"
+                "target_floor": "3F"
               }
             ],
             "pit_falls": [
@@ -7078,7 +7252,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 100,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -7086,12 +7260,16 @@
             {
               "type": "chest",
               "item_id": 10,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 0,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": null,
+              "tile_y": null
             }
           ]
         },
@@ -7112,7 +7290,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 8,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -7156,7 +7334,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 68,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ]
           },
@@ -7179,7 +7357,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 172,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7187,7 +7365,9 @@
             {
               "type": "chest",
               "item_id": 16,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 46,
+              "tile_y": 50
             },
             {
               "type": "locked_door",
@@ -7212,7 +7392,7 @@
                 "tile_x": 14,
                 "tile_y": 36,
                 "target_room_id": 32,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -7220,7 +7400,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7254,7 +7434,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7283,7 +7463,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7326,13 +7506,13 @@
                 "tile_x": 48,
                 "tile_y": 8,
                 "target_room_id": 195,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 46,
                 "tile_y": 36,
                 "target_room_id": 195,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -7340,7 +7520,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -7369,7 +7549,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7408,7 +7588,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7431,7 +7611,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7439,17 +7619,23 @@
             {
               "type": "chest",
               "item_id": 22,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 48,
+              "tile_y": 8
             },
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 0,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -7475,7 +7661,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7544,7 +7730,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7588,7 +7774,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7596,7 +7782,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 11,
+              "tile_y": 39
             },
             {
               "type": "locked_door",
@@ -7636,7 +7824,7 @@
                 "tile_x": 14,
                 "tile_y": 4,
                 "target_room_id": 182,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -7644,7 +7832,7 @@
                 "tile_x": 50,
                 "tile_y": 32,
                 "target_room_id": 182,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -7678,7 +7866,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7721,13 +7909,13 @@
                 "tile_x": 50,
                 "tile_y": 21,
                 "target_room_id": 17,
-                "target_floor": "B1"
+                "target_floor": "3F"
               },
               {
                 "tile_x": 31,
                 "tile_y": 34,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -7735,7 +7923,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 8,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
@@ -7743,7 +7931,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 40,
+              "tile_y": 14
             },
             {
               "type": "locked_door",
@@ -7796,7 +7986,7 @@
                 "tile_x": 22,
                 "tile_y": 58,
                 "target_room_id": 196,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ],
             "pit_falls": [
@@ -7804,7 +7994,7 @@
                 "tile_x": 10,
                 "tile_y": 15,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -7812,7 +8002,9 @@
             {
               "type": "chest",
               "item_id": 9,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 13,
+              "tile_y": 20
             },
             {
               "type": "locked_door",
@@ -7843,7 +8035,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 196,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ]
           },
@@ -7886,7 +8078,7 @@
                 "tile_x": 14,
                 "tile_y": 4,
                 "target_room_id": 21,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -7894,7 +8086,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -7902,7 +8094,9 @@
             {
               "type": "chest",
               "item_id": 71,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 42,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -7933,7 +8127,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -7941,12 +8135,16 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 42,
+              "tile_y": 7
             },
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 46,
+              "tile_y": 8
             }
           ]
         },
@@ -7966,7 +8164,7 @@
                 "tile_x": 22,
                 "tile_y": 4,
                 "target_room_id": 180,
-                "target_floor": null
+                "target_floor": "4F"
               }
             ],
             "pit_falls": [
@@ -7974,7 +8172,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 181,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ]
           },
@@ -8013,7 +8211,7 @@
                 "tile_x": 20,
                 "tile_y": 52,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -8042,7 +8240,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -8086,7 +8284,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -8125,7 +8323,7 @@
                 "tile_x": 23,
                 "tile_y": 8,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -8133,7 +8331,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 43,
+              "tile_y": 48
             },
             {
               "type": "locked_door",
@@ -8159,7 +8359,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 2,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -8167,7 +8367,9 @@
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 11,
+              "tile_y": 11
             },
             {
               "type": "locked_door",
@@ -8205,7 +8407,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ]
           },
@@ -8213,7 +8415,9 @@
             {
               "type": "chest",
               "item_id": 23,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 33,
+              "tile_y": 42
             },
             {
               "type": "locked_door",
@@ -8239,7 +8443,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -8311,25 +8515,25 @@
                 "tile_x": 32,
                 "tile_y": 34,
                 "target_room_id": 28,
-                "target_floor": "1F"
+                "target_floor": "8F"
               },
               {
                 "tile_x": 18,
                 "tile_y": 49,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 12,
                 "tile_y": 35,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 35,
                 "tile_y": 49,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8337,7 +8541,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -8345,7 +8549,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 33,
+              "tile_y": 28
             },
             {
               "type": "locked_door",
@@ -8371,7 +8577,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 150,
-                "target_floor": null
+                "target_floor": "3F"
               }
             ]
           },
@@ -8379,7 +8585,9 @@
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 6,
+              "tile_y": 8
             },
             {
               "type": "locked_door",
@@ -8458,13 +8666,13 @@
                 "tile_x": 50,
                 "tile_y": 12,
                 "target_room_id": 41,
-                "target_floor": null
+                "target_floor": "3F"
               },
               {
                 "tile_x": 42,
                 "tile_y": 41,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8472,7 +8680,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -8515,13 +8723,13 @@
                 "tile_x": 38,
                 "tile_y": 13,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 48,
                 "tile_y": 48,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8537,7 +8745,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -8567,25 +8777,25 @@
                 "tile_x": 10,
                 "tile_y": 49,
                 "target_room_id": 35,
-                "target_floor": "B1"
+                "target_floor": "2F"
               },
               {
                 "tile_x": 51,
                 "tile_y": 23,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 37,
                 "tile_y": 33,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 29,
                 "tile_y": 33,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8631,13 +8841,13 @@
                 "tile_x": 50,
                 "tile_y": 17,
                 "target_room_id": 28,
-                "target_floor": "1F"
+                "target_floor": "8F"
               },
               {
                 "tile_x": 17,
                 "tile_y": 17,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8645,7 +8855,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -8727,19 +8937,19 @@
                 "tile_x": 49,
                 "tile_y": 13,
                 "target_room_id": 35,
-                "target_floor": "B1"
+                "target_floor": "2F"
               },
               {
                 "tile_x": 27,
                 "tile_y": 48,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 27,
                 "tile_y": 38,
                 "target_room_id": 5,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8781,7 +8991,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -8829,7 +9039,7 @@
                 "tile_x": 30,
                 "tile_y": 14,
                 "target_room_id": 19,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -8837,7 +9047,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 12,
-                "target_floor": "2F"
+                "target_floor": "6F"
               }
             ]
           },
@@ -8845,22 +9055,30 @@
             {
               "type": "chest",
               "item_id": 40,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 68,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 54,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 54,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             }
           ]
         },
@@ -8880,7 +9098,7 @@
                 "tile_x": 30,
                 "tile_y": 58,
                 "target_room_id": 19,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ],
             "pit_falls": [
@@ -8896,7 +9114,9 @@
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 31,
+              "tile_y": 33
             }
           ]
         },
@@ -8916,13 +9136,13 @@
                 "tile_x": 36,
                 "tile_y": 10,
                 "target_room_id": 28,
-                "target_floor": "1F"
+                "target_floor": "8F"
               },
               {
                 "tile_x": 12,
                 "tile_y": 40,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -8930,7 +9150,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -9002,19 +9222,19 @@
                 "tile_x": 37,
                 "tile_y": 41,
                 "target_room_id": 19,
-                "target_floor": null
+                "target_floor": "2F"
               },
               {
                 "tile_x": 23,
                 "tile_y": 41,
                 "target_room_id": 0,
-                "target_floor": "2F"
+                "target_floor": "1F"
               },
               {
                 "tile_x": 30,
                 "tile_y": 4,
                 "target_room_id": 51,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -9030,27 +9250,37 @@
             {
               "type": "chest",
               "item_id": 31,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": 30,
+              "tile_y": 46
             },
             {
               "type": "chest",
               "item_id": 35,
-              "big_chest": true
+              "big_chest": true,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 68,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 40,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "chest",
               "item_id": 68,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": null,
+              "tile_y": null
             },
             {
               "type": "locked_door",
@@ -9096,7 +9326,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -9179,7 +9409,7 @@
                 "tile_x": 5,
                 "tile_y": 7,
                 "target_room_id": 10,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -9187,7 +9417,9 @@
             {
               "type": "chest",
               "item_id": 50,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 48,
+              "tile_y": 47
             },
             {
               "type": "locked_door",
@@ -9222,7 +9454,7 @@
                 "tile_x": 9,
                 "tile_y": 42,
                 "target_room_id": 192,
-                "target_floor": null
+                "target_floor": "4F"
               },
               {
                 "tile_x": 30,
@@ -9236,7 +9468,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 125,
-                "target_floor": null
+                "target_floor": "7F"
               }
             ]
           },
@@ -9244,7 +9476,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 50,
+              "tile_y": 52
             },
             {
               "type": "locked_door",
@@ -9283,7 +9517,9 @@
             {
               "type": "chest",
               "item_id": 36,
-              "big_chest": false
+              "big_chest": false,
+              "tile_x": 9,
+              "tile_y": 20
             },
             {
               "type": "locked_door",
@@ -9309,7 +9545,7 @@
                 "tile_x": 19,
                 "tile_y": 39,
                 "target_room_id": 11,
-                "target_floor": null
+                "target_floor": "2F"
               }
             ]
           },
@@ -9411,7 +9647,7 @@
                 "tile_x": 10,
                 "tile_y": 37,
                 "target_room_id": 25,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ],
             "pit_falls": [
@@ -9419,7 +9655,7 @@
                 "tile_x": null,
                 "tile_y": null,
                 "target_room_id": 5,
-                "target_floor": null
+                "target_floor": "1F"
               }
             ]
           },
